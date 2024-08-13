@@ -1,0 +1,62 @@
+.seat-booking-container{
+    width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.seat-map{
+    display: grid;
+    grid-template-columns: repeat(10 ,40px);
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.seat{
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.seat.available{
+    background-color: #28a745;
+}
+.seat.booked{
+    background-color: #dc3545;
+}
+.seat.selected{
+    background-color: #ffc107;
+}
+.passenger-details-form{
+    margin-bottom: 10px;
+}
+.passenger-details-form label{
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+.passenger-details-form input[type="text"], .passenger-details-form input[type="number"], .passenger-details-form select{
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.add-passenger-button{
+    width: 100%;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius:5px;
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+}
+.proceed-to-payment-button{
+    width: 100%;
+    background-color: #28a745;
+    color:white;
+    border: none;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 18px;
+
+
+}
